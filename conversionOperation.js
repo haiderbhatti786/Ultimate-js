@@ -5,3 +5,8 @@ let isLoggenin = 1; // means true
 let value2 = Boolean(isLoggenin);
 
 console.log(value2);
+// ****************** Operations **********************//
+console.log(1 + "2"); // 12
+console.log("1" + 2); //12
+console.log("1" + 2 + 2); // 122
+console.log(1 + 2 + "2"); // 32
