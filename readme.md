@@ -20,16 +20,34 @@ conversion
 (4)
 ```
 
-## `Postfix`
+## `Postfix` vs `Prefix`
+
+### Postfix
 
 ```
-usage ke badd increment/decrement hogi
+The increment/decrement operation happens after the value is used.
 ```
 
-## `Prefix`
+Example:
+
+```javascript
+let x = 5;
+console.log(x++); // 5
+console.log(x); // 6
+```
+
+### Prefix
 
 ```
-usage se pehek increment/decrement  hogi
+The increment/decrement operation happens before the value is used.
+```
+
+Example:
+
+```javascript
+let y = 5;
+console.log(++y); // 6
+console.log(y); // 6
 ```
 
 # Comparison Details
