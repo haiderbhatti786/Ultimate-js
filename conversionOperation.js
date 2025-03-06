@@ -10,3 +10,14 @@ console.log(1 + "2"); // 12
 console.log("1" + 2); //12
 console.log("1" + 2 + 2); // 122
 console.log(1 + 2 + "2"); // 32
+//   data types ////
+// primitive
+// total 7
+// string number boolean null  undefined symbol BigInt
+let a = Symbol(1);
+let b = 1;
+console.log(a == b);
+// reference non primatives
+// Array, objects ,functions
+/// parseInt
+//// parsefloat
