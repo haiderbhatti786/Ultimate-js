@@ -20,3 +20,15 @@ conversion
 (3)
 (4)
 ```
+
+## `Postfix`
+
+```
+usage ke badd increment/decrement hogi
+```
+
+## `Prefix`
+
+```
+usage se pehek increment/decrement  hogi
+```
