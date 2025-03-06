@@ -5,7 +5,6 @@ dataTypes-Primitive
 1>null -  ye empty value ko represent krta hai | standalone value
 2>undefined- jab variable declare ho magar intialize na kya gaya ho yani value na di gai hoo
 3>symbol=> unique
-
 ```
 
 ```
@@ -55,3 +54,28 @@ This file contains various comparison operations and their results:
 
 5. `console.log(null >= 0); // true`
    - Compares if `null` is greater than or equal to 0. The result is `true` because `null` is considered equal to 0 in this comparison.
+
+## Triple Equal (`===`)
+
+The triple equal operator (`===`) is used to compare both the value and the type of two variables. It returns `true` only if both the value and the type are the same.
+
+Examples:
+
+1. `console.log(2 === 2); // true`
+
+   - Both the value and the type (number) are the same.
+
+2. `console.log(2 === "2"); // false`
+
+   - The value is the same, but the type is different (number vs. string).
+
+3. `console.log(null === null); // true`
+
+   - Both the value and the type (object) are the same.
+
+4. `console.log(undefined === undefined); // true`
+
+   - Both the value and the type (undefined) are the same.
+
+5. `console.log(true === 1); // false`
+   - The value is different (true vs. 1) and the type is different (boolean vs. number).
