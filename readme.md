@@ -99,3 +99,12 @@ Examples:
    - The value is different (true vs. 1) and the type is different (boolean vs. number).
 
 ![datatype retun value]({B835067D-0999-4806-ACE3-CDBE8FCF32A3}.png)
+
+## Memory Types
+
+`There are two types of memory`
+
+```
+stack(primitive)
+heap(non-primitive)
+```
