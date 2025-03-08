@@ -108,3 +108,5 @@ Examples:
 stack(primitive)
 heap(non-primitive)
 ```
+
+concatinate old tarkeeka hai
