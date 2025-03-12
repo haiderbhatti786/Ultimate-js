@@ -121,6 +121,7 @@ heap(non-primitive)
 2. Using the `String` constructor:
    ```javascriptring` constructor:
    const string2 = new String("Hello world 2");
+
    ```st string2 = new String("Hello world 2");
 
    ```
@@ -136,12 +137,15 @@ heap(non-primitive)
   console.log(`string 1 is = ${string[4]} and string 2 is ${string2[2]}`);
   ````
 - Getting the length of a string:
+
   ```javascript
   console.log(string.length);ing:
   ```
+
   ```javascript
 
   ```
+
 - Getting a character at a specific index:
 
   ````javascript
@@ -182,12 +186,15 @@ heap(non-primitive)
   console.log(string.trim());
   ````
 - Checking if a string includes a substring:
+
   ```javascript
   const test = string.includes("bhatti"); // returns false
   ```
+
   ```javascript
 
   ```
+
 - Displaying a string in a large font:h-h-h-h-h-h-h-hah";
   ```javascript name.replace("bhatti", "Siddique"); // replaces 'bhatti' with 'Siddique'
   console.log(name.big());
