@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+    <ul class="lang">
+      <li>javascript</li>
+    </ul>
+    <script>
+      // const lang = (langname) => {
+      //   const li = document.createElement("li"); // li create kro
+      //   li.innerHTML = `${langname}`; // li me inner data dalna
+      //   document.querySelector(".lang").appendChild(li); // li ko lang div me dalna
+      // };
+      // for (let i = 0; i < 2; i++) {
+      //   lang(`python->${i}`);
+      // }
+      // optimized way  for full projects
+      const optilang = (langname) => {
+        const li = document.createElement("li"); // li create kro
+        li.appendChild(document.createTextNode(langname)); // li me  text data dalna
+        document.querySelector(".lang").appendChild(li); // is ke mudad  se lang ko select kya aur li append kya
+      };
+      for (let i = 0; i < 5; i++) {
+        optilang(`python => ${i}`);
+      }
+
+      // editing
+      // document.querySelector("li:nth-child(2)").innerHTML = "edited"; // edited successfully
+      const old = document.querySelector("li:nth-child(1)");
+      const newli = document.createElement("li");
+
+      newli.appendChild(document.createTextNode("edited"));
+      old.replaceWith(newli);
+      // inner html aur outer html bhi use kr skte hai
+      //   lang("Typescript");
+      // remove
+      const na = document.querySelector("li:first-child");
+      na.remove();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* body {
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  transition: all ease 0.4s;
+  gap: 0.2rem;
+}
+h1 {
+  color: #212121;
+  font-family: cursive;
+  font-size: 3vw;
+}
+h2 {
+  color: #212121;
+  font-family: cursive;
+  font-size: 2vw;
+}
+span {
+  color: #212121;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  font-size: 1.8vw;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.button {
+  display: flex;
+  width: 10vw;
+  height: 15vh;
+  border-radius: 50%;
+  border: none;
+  background-color: aqua;
+  border: 2px solid black;
+}
+.button:nth-child(1) {
+  background-color: gray;
+}
+.button:nth-child(2) {
+  background-color: white;
+}
+.button:nth-child(3) {
+  background-color: blue;
+}
+.button:nth-child(4) {
+  background-color: saddlebrown;
+}
